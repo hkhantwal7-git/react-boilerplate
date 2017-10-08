@@ -1,14 +1,12 @@
 import React from 'react';
-require('../styles/style.css');
+require('../styles/style.scss');
 const App = () => {
-    return (
-        <div>
-            <h1 className="color">
-                Hello World
-            </h1>
-            My First React App
-        </div>
-    )
+    return [
+		<h1 className="color">
+			Hello World
+		</h1>,
+		"My First React App"
+	]
 }
 
 export default App;
